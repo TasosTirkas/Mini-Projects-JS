@@ -17,6 +17,6 @@ const playlistHtml = playlistArr.map(function (track) {
     </div>
 </section>
 `
-})
+}).join('')
 
 document.getElementById('container').innerHTML = playlistHtml.join('')
